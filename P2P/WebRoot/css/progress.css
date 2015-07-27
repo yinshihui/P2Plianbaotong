@@ -1,0 +1,55 @@
+.tip {
+	float:left;
+	margin-left:5px;
+	font-size:15px;
+	line-height:15px;
+}
+.progress_whole {
+	width:150px;
+	height:auto;
+	float:left;
+}
+.huge_progress_main {
+	height:21px;
+	width:390px;
+	background-color:rgb(230, 230, 230);
+	border:6px solid rgb(237,234,229);
+	border-radius:20px;
+	box-shadow:9px 3px 11px #666 inset;
+	float:left;
+}
+.progress_main {
+	height:12px;
+	width:100px;
+	background-color:rgb(230, 230, 230);
+	border:1px solid black;
+	border-radius:4px;
+	box-shadow:0 1px 2px #666 inset;
+	float:left;
+}
+.huge_progress_actual {
+	height:100%;
+	background-color:rgb(255, 110, 6);
+	background:-o-linear-gradient(top, rgb(240, 96, 0), rgb(253, 102, 0), rgb(255, 110, 6), rgb(253, 102, 0),rgb(240, 96, 0));
+	background:-moz-linear-gradient(top, rgb(240, 96, 0), rgb(253, 102, 0), rgb(255, 110, 6), rgb(253, 102, 0),rgb(240, 96, 0));
+	background:-webkit-linear-gradient(top, rgb(240, 96, 0), rgb(253, 102, 0), rgb(255, 110, 6), rgb(253, 102, 0),rgb(240, 96, 0));
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	border-radius:20px;
+	box-shadow:0 0 6px #666 inset;
+}
+.progress_actual {
+	height:100%;
+	background-color:rgb(255, 110, 6);
+	background:-o-linear-gradient(top, rgb(255, 154, 6), rgb(255, 154, 6), rgb(255, 110, 6), rgb(255, 95, 6));
+	background:-moz-linear-gradient(top, rgb(255, 154, 6), rgb(255, 154, 6), rgb(255, 110, 6), rgb(255, 95, 6));
+	background:-webkit-linear-gradient(top, rgb(255, 154, 6), rgb(255, 154, 6), rgb(255, 110, 6), rgb(255, 95, 6));
+	transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	border-radius:0 2px 2px 0;
+	box-shadow:1px 0 1px #666;
+}

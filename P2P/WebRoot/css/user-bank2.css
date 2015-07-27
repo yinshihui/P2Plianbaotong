@@ -1,0 +1,39 @@
+.required{
+	color:red;
+}
+.choosen {
+	border-bottom:2px solid #ff6600; 
+	color:#000000!important;
+	background: url(../images/user_tab_on.jpg) center bottom no-repeat;
+}
+.otherBank {
+	display:none;
+}
+#card div ul li dd a:hover {
+	color:red;
+	text-decoration:underline;
+}
+#showBankList {
+	border:1px solid #999;
+	background:rgb(255,255,255);
+	width:230px;
+	height:200px;
+	position:relative;
+	top:26px;
+	z-index:100;
+	display:none;
+	overflow:auto;
+	left:-232px;
+}
+#showBankList ul {
+	padding:0!important;
+	position:relative;
+	top:0px;
+	width:100%;
+}
+#showBankList ul li {
+	width:100%;
+}
+#showBankList ul li:hover {
+	background:rgb(240,240,240);
+}

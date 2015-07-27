@@ -1,0 +1,31 @@
+#txArea {
+	width:500px;
+	height:300px;
+	resize:none;
+	position:relative;
+	float:left;
+}
+.required{
+	color:red;	
+}
+#checkArea {
+	position:relative;
+	margin:0 auto;
+	width:200px;
+	
+}
+#content {
+	margin-left:120px;
+}
+#content h1 {
+	text-align:center;
+	width:460px;
+	padding:10px 0;
+	font-size:24px;
+}
+#agreeButton {
+	margin-left:320px;
+}
+#returnButton {
+	
+}

@@ -1,0 +1,46 @@
+.required {
+	color:red;
+}
+.accord {
+	color:green;
+}
+.unaccord {
+	color:red;
+}
+#checkLabel {
+	font-size:21px;
+	padding:10px;
+	border-bottom:2px solid #E4E4E4;
+}
+#operatorCheck {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	text-align:center;
+}
+#formTopic {
+	background-color:#E4E4E4;
+	color:#666666;
+}
+#operatorCheck tbody tr {
+	line-height:30px;
+}
+#operatorCheck tbody tr th {
+	font-size:14px;
+}
+#operatorCheck tbody tr td{
+	font-size:13px;
+}
+.input {
+	border-radius:15px;
+	background-color:rgb(255, 102, 0);
+	padding:5px 10px;
+	color:white;
+}
+.input:hover {
+	background-color:rgb(0, 153, 255);
+	color:white;
+}
+.pagination {
+	bottom:-251px!important;	
+}
