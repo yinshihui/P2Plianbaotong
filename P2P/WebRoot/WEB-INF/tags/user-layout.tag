@@ -1,7 +1,7 @@
 <%@ tag language="java" pageEncoding="utf-8"%>
 <%@ taglib prefix="lbt" tagdir="/WEB-INF/tags" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<%-- <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %> --%>
 <%@ attribute name="title" description="页面标题"%>
 <%@ attribute name="header" fragment="true" description="额外的head区内容，包括页面加载脚本" %>
 <lbt:main-layout title="${title}">

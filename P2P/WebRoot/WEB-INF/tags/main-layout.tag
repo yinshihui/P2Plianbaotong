@@ -187,7 +187,7 @@ function closeWindow(){
 <body>
 
 
-<div id="mask" style="display:none;z-index:10000">
+<!-- <div id="mask" style="display:none;z-index:10000">
 <iframe src="about:blank" id="mask_box" ></iframe>
 </div>
 
@@ -196,7 +196,7 @@ function closeWindow(){
   <div style="width:128px; margin:0 auto">
     <img src="res/images/loading.gif" align="absmiddle">
   </div>
-</div>
+</div> -->
 
 
 	<div style="display:none;background: gray; position: absolute;opacity:0;z-index:9999" id="modal"></div>
